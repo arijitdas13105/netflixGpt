@@ -8,6 +8,7 @@ export const BG_URL =
 
   export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
   export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
+  
   export const API_OPTIONS = {
     method: 'GET',
     headers: {
@@ -23,4 +24,3 @@ export const BG_URL =
     { identifier: "spanish", name: "Spanish" },
   ];
 
-// export const  OPENAI_KEY="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"
